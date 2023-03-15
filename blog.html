@@ -25,6 +25,14 @@
                 Cookies: send data to server. <br>
             </p>
         </article>
+        <article class="border bg-slate-200 p-4 my-2">
+            <h2 class="text-lg"><span class="text-red-700">No. 03:</span> What is Event loop? How does it works?</h2>
+            <p>Ans: Event loop is a mechanism that allows JS to perform asynchronous task. Js is single threaded programming language but event loop helps it to run in asynchronous way.
+                <br>
+                When a asynchronous function like fetch() , setTimeOut comes to call stack it sends them to web api, and there they wait for there task to be completed ,such as data load. Also the task is removed from call stack, it that time other tasks are executed. When the task in the web api is completed it is loaded into callback queue. When the call stack is empty, event loop put task from callback queue to call stack and the task is then executed.
+                
+            </p>
+        </article>
         
     </section>
 </body>
