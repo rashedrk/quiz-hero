@@ -185,6 +185,7 @@ document.querySelector("#submit").addEventListener("click", () => {
   window.scrollTo(0, 0);
 });
 
+//blog button click handler
 function blogBtn() {
   window.location.href = './blog.html'
 }
